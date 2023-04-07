@@ -13,8 +13,9 @@ const Login = () => {
 
   return (
     <div className="login">
-      <h3>Login Components</h3>
+      <h3>Login Form</h3>
       <div>
+        <label>Name: </label>
         <input
           type="text"
           placeholder="username"
@@ -28,6 +29,7 @@ const Login = () => {
         />
       </div>
       <div>
+      <label>Password: </label>
         <input
           type="password"
           placeholder="password"

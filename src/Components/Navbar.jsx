@@ -17,11 +17,11 @@ const Navbar = () => {
                 <li>Home</li>
                 <li>Profile</li>
                 <li>Support</li>
-                <li>About Us</li>
+                <li>About </li>
                 <li onClick={()=>{
                     setisLoggedIn(false)
                 }}>LogOut</li>
-                <li style={{color:"yellowgreen"}}>{input}</li>
+                <li style={{color:"yellowgreen",fontSize:"20px"}}>{input.toUpperCase()}</li>
             </ul>
         </div>
     </div>
