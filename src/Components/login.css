@@ -1,0 +1,11 @@
+
+.login{
+    box-shadow: 0 0 10px black;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

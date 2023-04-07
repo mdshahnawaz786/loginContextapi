@@ -1,0 +1,24 @@
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.navbarHeading{
+    width: 40%;
+}
+
+.navbarMenu{
+    width: 40%;
+    display: flex;
+}
+
+
+.navbarMenu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+}
