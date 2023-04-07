@@ -15,7 +15,7 @@ const Login = () => {
     <div className="login">
       <h3>Login Form</h3>
       <div>
-        <label>Name: </label>
+        <label>Username: </label>
         <input
           type="text"
           placeholder="username"
